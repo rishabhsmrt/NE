@@ -1,0 +1,31 @@
+.introduction_text_1 {
+
+    display: inherit;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    margin: 100px;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(226deg, #2fc3a2, #7867b0);
+}
+
+.space_1 {
+
+    margin-bottom: 500px;
+
+}
+
+.dealer{
+    color: #4c3c3c;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.ad {
+    margin-top: 100px;
+}
