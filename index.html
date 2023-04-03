@@ -15,12 +15,12 @@
     Landing page to Narayan Enterprises.
 
     <div class="container">
-        <nav class="navbar">
+        <nav class="navbar" id="home">
 
             <!-- LOGO -->
             <div class="companyLogo">
                 <img id="logo" src=".\img\logo.jpeg" alt="Image not displayed">
-                <div class="name">Narayan Enterprises</div>
+                <div class="name" id="name">Narayan Enterprises</div>
             </div>
 
             <!-- NAVIGATION MENU -->
@@ -36,9 +36,9 @@
 
                 <div class="menu">
 
-                    <li><a href="/">Home</a></li>
+                    <li><a href="#home">Home</a></li>
 
-                    <li><a href="/">About</a></li>
+                    <li><a href="#home">About</a></li>
 
                     <li class="services">
 
@@ -64,9 +64,9 @@
 
                     </li>
 
-                    <li><a href="/">Pricing</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
 
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
 
                 </div>
 
@@ -77,7 +77,8 @@
             One Stop destination for your Safety and Security Solution.
         </div>
         <div class="slider">
-            <img class="dis_1" src=".\img\dis_1.jpeg" alt="Image not displayed">
+            <div class="dis_1"><img id="dis_1" src=".\img\dis_1.jpeg" alt="Image not displayed"></div>
+            <div class="dis_4"><img id="dis_4" src=".\img\dis_4.jpeg" alt="Image not displayed"></div>
         </div>
         <div class="space_1">
 
@@ -94,5 +95,5 @@
         </div>
     </div>
 </body>
-
+<script src=".\js\app.js"></script>
 </html>
