@@ -7,7 +7,7 @@ test.addEventListener(
       event.target.style.color = "#c5aa6a";
     setTimeout(() => {
         event.target.style.color = "";
-      }, 500);
+      }, 5000);
     },false
 );
 

@@ -23,7 +23,6 @@
     text-align: center;
     margin-top: 100px;
     font-family: 'Merriweather', serif;
-    font-family: 'Montserrat', sans-serif;;
 }
 
 .ad {
@@ -35,4 +34,25 @@
 }
 .dis_4{
     display: block;
+}
+
+.about{
+
+    display: inherit;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    margin: 100px 0px;
+    color: #4c3c3c;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.list{
+    list-style: none;
+}
+
+.services{
+    padding-top: 30px;
 }
