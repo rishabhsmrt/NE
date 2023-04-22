@@ -30,8 +30,23 @@ function showslide(){
         check1[0].style.display = "block";
         slide = true;
     }
-    console.log("value of slide is " + slide);
-    console.log("value of check2 " + check2[0].style.display); 
-    console.log("value of check1 " + check1[0].style.display); 
     setTimeout(showslide, 2000);
 }
+
+
+jQuery('#frmSubmit').on('submit',function(e){
+    e.preventDefault();
+    jQuery('#msg').html('Please wait...');
+    jQuery('#btnSubmit').attr('disabled',true);
+    jQuery.ajax({
+        url:'https://script.google.com/macros/s/AKfycbyZ8mxEq6HqJXCpqPldXwFe8Ov5CnOr3RG-SYahD680M5YmZzWd2l6pjmdHWC-xaoGc/exec',
+        type:'post',
+        data:jQuery('#frmSubmit').serialize(),
+        success:function(result){
+            jQuery('#frmSubmit')[0].reset();
+            jQuery('#msg').html('Thank You');
+            jQuery('#btnSubmit').attr('disabled',false);
+            //window.location.href='';
+        }
+    });
+  });
