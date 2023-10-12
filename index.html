@@ -13,8 +13,6 @@
 </head>
 
 <body>
-    Landing page to Narayan Enterprises.
-
     <div class="container">
         <nav class="navbar list" id="home">
 
@@ -37,9 +35,9 @@
 
                 <div class="menu">
 
-                    <li><a href="#home">Home</a></li>
+                    <li><a href=".\index.html">Home</a></li>
 
-                    <li><a href="#home">About</a></li>
+                    <li><a href=".\about.html">About</a></li>
 
                     <li class="services">
 
@@ -67,7 +65,7 @@
 
                     <li><a href="#pricing">Pricing</a></li>
 
-                    <li><a href="#inputform">Contact</a></li>
+                    <li><a href=".\contact.html">Contact</a></li>
 
                 </div>
 
@@ -93,19 +91,22 @@
             </ul>
         </div>
         <div class="inputform" id="inputform">
-            <form method="post" id="frmSubmit">
+            <form method="post" id="frmSubmit" >
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+
                 <label for="subject">Subject:</label>
                 <select id="subject" name="subject" required>
                     <option value="">-- Please select --</option>
                     <option value="general">General Inquiry</option>
                     <option value="support">Technical Support</option>
-                    <option value="sales">Sales</option>
+                    <option value="sales">Repairing</option>
                 </select>
 
                 <label for="message">Message:</label>
